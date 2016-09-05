@@ -1,6 +1,7 @@
 const fs = require('fs')
 const path = require('path')
-
+const generateHTMLForDemo = require('./generateHTMLForDemo')
+const generateREADME = require('./generateREADME')
 const SOURCE_HTML_PATH = path.resolve(__dirname, './color-palette.html')
 const OUTPUT_JSON_PATH = path.resolve(__dirname, '../lib/color-palette.json')
 
@@ -15,7 +16,7 @@ module.exports = function generateJSON($) {
 	const $colorPallette = $(html)
 	const json = {}
 	$colorPallette.find('.color-group').each(function(idx){
-		const $group = $(this) 
+		const $group = $(this)
 		let colorName = $group.find('.main-color .name').text()
 		colorName = camelize(colorName)
 		json[colorName] = Object.assign({}, json[colorName])
@@ -31,5 +32,10 @@ module.exports = function generateJSON($) {
 	json['black'] = '#000000'
 	json['white'] = '#FFFFFF'
 	fs.writeFileSync(OUTPUT_JSON_PATH, JSON.stringify(json, null, 2))
-	console.log('Successfully created: color-pallette.json')
+	console.log('Successfully created: lib/color-pallette.json')
+
+	generateHTMLForDemo($, json)
+  console.log('Successfully created: lib/demo-html.md')
+	generateREADME();
+	console.log('Successfully created: README.md')
 }
