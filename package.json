@@ -1,10 +1,11 @@
 {
   "name": "google-material-color-palette-json",
-  "version": "1.0.0",
-  "description": "A json file to represent google material's color palette",
-  "main": "index.js",
+  "version": "1.1.0",
+  "repository": "https://github.com/sravanrekandar/google-material-color-palette-json.git",
+  "description": "A json file to represent google material's color palette. Created to use in React Native",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node src/index.js"
   },
   "keywords": [
     "material",
