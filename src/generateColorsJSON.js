@@ -1,7 +1,6 @@
 const fs = require('fs')
 const path = require('path')
-const generateHTMLForDemo = require('./generateHTMLForDemo')
-const generateREADME = require('./generateREADME')
+const generateHTMLForDemo = require('./generateSVGForDemo')
 const SOURCE_HTML_PATH = path.resolve(__dirname, './color-palette.html')
 const OUTPUT_JSON_PATH = path.resolve(__dirname, '../lib/color-palette.json')
 
@@ -32,10 +31,5 @@ module.exports = function generateJSON($) {
 	json['black'] = '#000000'
 	json['white'] = '#FFFFFF'
 	fs.writeFileSync(OUTPUT_JSON_PATH, JSON.stringify(json, null, 2))
-	console.log('Successfully created: lib/color-pallette.json')
-
-	generateHTMLForDemo($, json)
-  console.log('Successfully created: lib/demo-html.md')
-	generateREADME();
-	console.log('Successfully created: README.md')
+	console.log('Successfully created: lib/color-palette.json')
 }
