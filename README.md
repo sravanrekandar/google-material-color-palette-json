@@ -15,3 +15,5 @@ const Palette = require('google-material-color-palette-json')
 const bgColor = Palette.red.shade_500 // #F44336
 const fgColor = Palette.white // #FFFFFF
 ```
+
+![Image of Palette](https://rawgit.com/sravanrekandar/google-material-color-palette-json/master/lib/table.svg)
