@@ -5,7 +5,7 @@
   "description": "A json file to represent google material's color palette. Created to use in React/ React Native",
   "main": "lib/index.js",
   "scripts": {
-    "build": "node src/index.js"
+    "build": "node src/index.js && browserify src/browserify-entry -o lib/index.js -s PALETTE"
   },
   "keywords": [
     "material",
@@ -16,6 +16,7 @@
   "author": "sravanrekandar@gmail.com",
   "license": "MIT",
   "devDependencies": {
+    "browserify": "^13.1.1",
     "handlebars": "^4.0.5",
     "jquery": "^3.1.0",
     "jsdom": "^9.5.0"
