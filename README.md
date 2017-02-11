@@ -17,7 +17,7 @@ const bgColor = Palette.red.shade_500 // #F44336
 const fgColor = Palette.white // #FFFFFF
 ```
 
-# UMD Version (Inject through <script> tag)
+# UMD Version (Inject through &lt;script /> tag)
 
 ```
 <script src="google-material-color-palette-json/lib/palette-umd.js"></script>
