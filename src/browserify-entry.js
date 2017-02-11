@@ -1,1 +1,1 @@
-module.exports = require('../lib/color-palette.json')
+module.exports = require('../lib/palette')

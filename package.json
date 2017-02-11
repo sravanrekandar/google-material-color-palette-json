@@ -1,11 +1,14 @@
 {
   "name": "google-material-color-palette-json",
-  "version": "1.1.2",
+  "version": "2.0.0",
   "repository": "https://github.com/sravanrekandar/google-material-color-palette-json.git",
   "description": "A json file to represent google material's color palette. Created to use in React/ React Native",
-  "main": "lib/index.js",
+  "main": "lib/palette.js",
   "scripts": {
-    "build": "node src/index.js && browserify src/browserify-entry -o lib/index.js -s PALETTE"
+    "test": "npm run build && mocha",
+    "clean": "rimraf lib && mkdirp lib",
+    "create-umd": "browserify src/browserify-entry -o lib/palette-umd.js -s PALETTE",
+    "build": "npm run clean && node src/index.js && npm run create-umd"
   },
   "keywords": [
     "material",
@@ -19,6 +22,9 @@
     "browserify": "^13.1.1",
     "handlebars": "^4.0.5",
     "jquery": "^3.1.0",
-    "jsdom": "^9.5.0"
+    "jsdom": "^9.5.0",
+    "mkdirp": "^0.5.1",
+    "mocha": "^3.2.0",
+    "rimraf": "^2.5.4"
   }
 }

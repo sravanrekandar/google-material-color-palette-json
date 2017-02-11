@@ -1,7 +1,6 @@
 const path = require('path')
 const fs = require('fs')
 const hbs = require('handlebars')
-const Palette = require('../lib/color-palette.json')
 const camelize = require('./utils').camelize
 
 const SOURCE_HTML_PATH = path.resolve(__dirname, './color-palette.html')
@@ -40,6 +39,7 @@ function createTitleRow(data){
 }
 
 module.exports = function($){
+  const Palette = require('../lib/palette.json')
   const html = fs.readFileSync(SOURCE_HTML_PATH, 'utf-8')
 	const $colorPallette = $(html)
 	const json = {}

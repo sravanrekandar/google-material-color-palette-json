@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Palette Example - UMD
+		</title>
+		<style>
+			.box {
+				width: 100px;
+				height: 100px;
+				margin: 5px;
+				display: inline-block;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Palette Example</h1>
+		<div>
+			<div id="box1" class="box"></div>
+			<div id="box2" class="box"></div>
+		</div>
+		<script src="../../../lib/palette-umd.js"></script>
+		<script>
+			document.querySelector('#box1').style.backgroundColor = PALETTE.red.shade_500
+			document.querySelector('#box2').style.backgroundColor = PALETTE.deepPurple.shade_A200
+		</script>
+	</body>
+</html>

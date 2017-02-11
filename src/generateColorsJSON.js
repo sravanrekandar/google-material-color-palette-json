@@ -1,8 +1,10 @@
 const fs = require('fs')
 const path = require('path')
-const generateHTMLForDemo = require('./generateSVGForDemo')
+
+const root = path.resolve(__dirname, '../')
 const SOURCE_HTML_PATH = path.resolve(__dirname, './color-palette.html')
-const OUTPUT_JSON_PATH = path.resolve(__dirname, '../lib/color-palette.json')
+const OUTPUT_JSON_PATH = `${root}/lib/palette.json`
+const OUTPUT_JS_PATH = `${root}/lib/palette.js`
 
 function camelize(str) {
   return str.replace(/(?:^\w|[A-Z]|\b\w)/g, function(letter, index) {
@@ -30,6 +32,11 @@ module.exports = function generateJSON($) {
 	delete json['']
 	json['black'] = '#000000'
 	json['white'] = '#FFFFFF'
+
 	fs.writeFileSync(OUTPUT_JSON_PATH, JSON.stringify(json, null, 2))
-	console.log('Successfully created: lib/color-palette.json')
+	console.log('Successfully created: lib/palette.json')
+
+	const jsString = `module.exports = ${JSON.stringify(json, null, 2)}`
+	fs.writeFileSync(OUTPUT_JS_PATH, jsString)
+	console.log('Successfully created: lib/palette.js')
 }

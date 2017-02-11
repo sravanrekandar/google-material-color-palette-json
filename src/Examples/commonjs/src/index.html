@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			Palette Example - UMD
+		</title>
+		<style>
+			body {
+				font-family: Calibri, Arial, Sans-serif;
+				color: #333;
+			}
+			.color-section {
+				display: inline-block;
+				max-width: 350px;
+			}
+			.box-container {
+				text-align: center;
+				cursor: pointer;
+      		}
+			.box {
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Palette Example</h1>
+		<h4>Google Material Design's Color Palette in JSON format. Originally created to use in React Native</h4>
+		<ul>
+			<li>
+				Click on any box to copy the color name
+			</li>
+			<li>
+				Double click on any box to coopy the color value
+			</li>
+			<li>
+				Your clipboard contains: <strong id="clipboard"></strong>
+			</li>
+		</ul>
+
+		<div id="colors">
+		</div>
+		<script src="bundle.js"></script>
+	</body>
+</html>
