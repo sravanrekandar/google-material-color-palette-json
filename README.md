@@ -8,6 +8,7 @@ Color values taken from [Google Material's Color Palette](https://material.googl
 npm i -S google-material-color-palette-json
 ```
 
+
 # Usage
 ```
 const Palette = require('google-material-color-palette-json')
@@ -15,4 +16,15 @@ const Palette = require('google-material-color-palette-json')
 const bgColor = Palette.red.shade_500 // #F44336
 const fgColor = Palette.white // #FFFFFF
 ```
+
+# UMD Version (Inject through <script> tag)
+
+```
+<script src="google-material-color-palette-json/lib/palette-umd.js"></script>
+<script>
+  const bgColor = window.PALETTE.red.shade_500 // #F44336
+  const fgColor = window.PALETTE.white // #FFFFFF
+</script>
+```
+
 <img src="https://rawgit.com/sravanrekandar/google-material-color-palette-json/master/lib/table.svg" alt="Drawing" width="821"/>
