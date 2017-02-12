@@ -100,8 +100,8 @@
   <rect width="400" height="127" fill="#E91E63">
   </rect>
   <text class="title" x="10" y="10" alignment-baseline="hanging" fill="#FFF">Palette.pink</text>
-  <text class="shade" x="10" y="117" fill="#000">Palette.red.shade_500</text>
-  <text class="shade" x="390" y="117" text-anchor="end" fill="#000">#F44336</text>
+  <text class="shade" x="10" y="117" fill="#000">Palette.pink.shade_500</text>
+  <text class="shade" x="390" y="117" text-anchor="end" fill="#000">#E91E63</text>
 </g>
 
 <g class="color-row" transform="translate(0, 127)">
@@ -192,8 +192,8 @@
   <rect width="400" height="127" fill="#9C27B0">
   </rect>
   <text class="title" x="10" y="10" alignment-baseline="hanging" fill="#FFF">Palette.purple</text>
-  <text class="shade" x="10" y="117" fill="#FFF">Palette.red.shade_500</text>
-  <text class="shade" x="390" y="117" text-anchor="end" fill="#FFF">#F44336</text>
+  <text class="shade" x="10" y="117" fill="#FFF">Palette.purple.shade_500</text>
+  <text class="shade" x="390" y="117" text-anchor="end" fill="#FFF">#9C27B0</text>
 </g>
 
 <g class="color-row" transform="translate(0, 127)">
@@ -284,8 +284,8 @@
   <rect width="400" height="127" fill="#673AB7">
   </rect>
   <text class="title" x="10" y="10" alignment-baseline="hanging" fill="#FFF">Palette.deepPurple</text>
-  <text class="shade" x="10" y="117" fill="#FFF">Palette.red.shade_500</text>
-  <text class="shade" x="390" y="117" text-anchor="end" fill="#FFF">#F44336</text>
+  <text class="shade" x="10" y="117" fill="#FFF">Palette.deepPurple.shade_500</text>
+  <text class="shade" x="390" y="117" text-anchor="end" fill="#FFF">#673AB7</text>
 </g>
 
 <g class="color-row" transform="translate(0, 127)">
@@ -376,8 +376,8 @@
   <rect width="400" height="127" fill="#3F51B5">
   </rect>
   <text class="title" x="10" y="10" alignment-baseline="hanging" fill="#FFF">Palette.indigo</text>
-  <text class="shade" x="10" y="117" fill="#FFF">Palette.red.shade_500</text>
-  <text class="shade" x="390" y="117" text-anchor="end" fill="#FFF">#F44336</text>
+  <text class="shade" x="10" y="117" fill="#FFF">Palette.indigo.shade_500</text>
+  <text class="shade" x="390" y="117" text-anchor="end" fill="#FFF">#3F51B5</text>
 </g>
 
 <g class="color-row" transform="translate(0, 127)">
@@ -468,8 +468,8 @@
   <rect width="400" height="127" fill="#2196F3">
   </rect>
   <text class="title" x="10" y="10" alignment-baseline="hanging" fill="#FFF">Palette.blue</text>
-  <text class="shade" x="10" y="117" fill="#000">Palette.red.shade_500</text>
-  <text class="shade" x="390" y="117" text-anchor="end" fill="#000">#F44336</text>
+  <text class="shade" x="10" y="117" fill="#000">Palette.blue.shade_500</text>
+  <text class="shade" x="390" y="117" text-anchor="end" fill="#000">#2196F3</text>
 </g>
 
 <g class="color-row" transform="translate(0, 127)">
@@ -560,8 +560,8 @@
   <rect width="400" height="127" fill="#03A9F4">
   </rect>
   <text class="title" x="10" y="10" alignment-baseline="hanging" fill="#FFF">Palette.lightBlue</text>
-  <text class="shade" x="10" y="117" fill="#FFF">Palette.red.shade_500</text>
-  <text class="shade" x="390" y="117" text-anchor="end" fill="#FFF">#F44336</text>
+  <text class="shade" x="10" y="117" fill="#FFF">Palette.lightBlue.shade_500</text>
+  <text class="shade" x="390" y="117" text-anchor="end" fill="#FFF">#03A9F4</text>
 </g>
 
 <g class="color-row" transform="translate(0, 127)">
@@ -652,8 +652,8 @@
   <rect width="400" height="127" fill="#00BCD4">
   </rect>
   <text class="title" x="10" y="10" alignment-baseline="hanging" fill="#FFF">Palette.cyan</text>
-  <text class="shade" x="10" y="117" fill="#FFF">Palette.red.shade_500</text>
-  <text class="shade" x="390" y="117" text-anchor="end" fill="#FFF">#F44336</text>
+  <text class="shade" x="10" y="117" fill="#FFF">Palette.cyan.shade_500</text>
+  <text class="shade" x="390" y="117" text-anchor="end" fill="#FFF">#00BCD4</text>
 </g>
 
 <g class="color-row" transform="translate(0, 127)">
@@ -744,8 +744,8 @@
   <rect width="400" height="127" fill="#009688">
   </rect>
   <text class="title" x="10" y="10" alignment-baseline="hanging" fill="#FFF">Palette.teal</text>
-  <text class="shade" x="10" y="117" fill="#000">Palette.red.shade_500</text>
-  <text class="shade" x="390" y="117" text-anchor="end" fill="#000">#F44336</text>
+  <text class="shade" x="10" y="117" fill="#000">Palette.teal.shade_500</text>
+  <text class="shade" x="390" y="117" text-anchor="end" fill="#000">#009688</text>
 </g>
 
 <g class="color-row" transform="translate(0, 127)">
@@ -836,8 +836,8 @@
   <rect width="400" height="127" fill="#4CAF50">
   </rect>
   <text class="title" x="10" y="10" alignment-baseline="hanging" fill="#FFF">Palette.green</text>
-  <text class="shade" x="10" y="117" fill="#FFF">Palette.red.shade_500</text>
-  <text class="shade" x="390" y="117" text-anchor="end" fill="#FFF">#F44336</text>
+  <text class="shade" x="10" y="117" fill="#FFF">Palette.green.shade_500</text>
+  <text class="shade" x="390" y="117" text-anchor="end" fill="#FFF">#4CAF50</text>
 </g>
 
 <g class="color-row" transform="translate(0, 127)">
@@ -928,8 +928,8 @@
   <rect width="400" height="127" fill="#8BC34A">
   </rect>
   <text class="title" x="10" y="10" alignment-baseline="hanging" fill="#FFF">Palette.lightGreen</text>
-  <text class="shade" x="10" y="117" fill="#FFF">Palette.red.shade_500</text>
-  <text class="shade" x="390" y="117" text-anchor="end" fill="#FFF">#F44336</text>
+  <text class="shade" x="10" y="117" fill="#FFF">Palette.lightGreen.shade_500</text>
+  <text class="shade" x="390" y="117" text-anchor="end" fill="#FFF">#8BC34A</text>
 </g>
 
 <g class="color-row" transform="translate(0, 127)">
@@ -1020,8 +1020,8 @@
   <rect width="400" height="127" fill="#CDDC39">
   </rect>
   <text class="title" x="10" y="10" alignment-baseline="hanging" fill="#FFF">Palette.lime</text>
-  <text class="shade" x="10" y="117" fill="#FFF">Palette.red.shade_500</text>
-  <text class="shade" x="390" y="117" text-anchor="end" fill="#FFF">#F44336</text>
+  <text class="shade" x="10" y="117" fill="#FFF">Palette.lime.shade_500</text>
+  <text class="shade" x="390" y="117" text-anchor="end" fill="#FFF">#CDDC39</text>
 </g>
 
 <g class="color-row" transform="translate(0, 127)">
@@ -1112,8 +1112,8 @@
   <rect width="400" height="127" fill="#FFEB3B">
   </rect>
   <text class="title" x="10" y="10" alignment-baseline="hanging" fill="#FFF">Palette.yellow</text>
-  <text class="shade" x="10" y="117" fill="#FFF">Palette.red.shade_500</text>
-  <text class="shade" x="390" y="117" text-anchor="end" fill="#FFF">#F44336</text>
+  <text class="shade" x="10" y="117" fill="#FFF">Palette.yellow.shade_500</text>
+  <text class="shade" x="390" y="117" text-anchor="end" fill="#FFF">#FFEB3B</text>
 </g>
 
 <g class="color-row" transform="translate(0, 127)">
@@ -1204,8 +1204,8 @@
   <rect width="400" height="127" fill="#FFC107">
   </rect>
   <text class="title" x="10" y="10" alignment-baseline="hanging" fill="#FFF">Palette.amber</text>
-  <text class="shade" x="10" y="117" fill="#FFF">Palette.red.shade_500</text>
-  <text class="shade" x="390" y="117" text-anchor="end" fill="#FFF">#F44336</text>
+  <text class="shade" x="10" y="117" fill="#FFF">Palette.amber.shade_500</text>
+  <text class="shade" x="390" y="117" text-anchor="end" fill="#FFF">#FFC107</text>
 </g>
 
 <g class="color-row" transform="translate(0, 127)">
@@ -1296,8 +1296,8 @@
   <rect width="400" height="127" fill="#FF9800">
   </rect>
   <text class="title" x="10" y="10" alignment-baseline="hanging" fill="#FFF">Palette.orange</text>
-  <text class="shade" x="10" y="117" fill="#FFF">Palette.red.shade_500</text>
-  <text class="shade" x="390" y="117" text-anchor="end" fill="#FFF">#F44336</text>
+  <text class="shade" x="10" y="117" fill="#FFF">Palette.orange.shade_500</text>
+  <text class="shade" x="390" y="117" text-anchor="end" fill="#FFF">#FF9800</text>
 </g>
 
 <g class="color-row" transform="translate(0, 127)">
@@ -1388,8 +1388,8 @@
   <rect width="400" height="127" fill="#FF5722">
   </rect>
   <text class="title" x="10" y="10" alignment-baseline="hanging" fill="#FFF">Palette.deepOrange</text>
-  <text class="shade" x="10" y="117" fill="#000">Palette.red.shade_500</text>
-  <text class="shade" x="390" y="117" text-anchor="end" fill="#000">#F44336</text>
+  <text class="shade" x="10" y="117" fill="#000">Palette.deepOrange.shade_500</text>
+  <text class="shade" x="390" y="117" text-anchor="end" fill="#000">#FF5722</text>
 </g>
 
 <g class="color-row" transform="translate(0, 127)">
@@ -1480,8 +1480,8 @@
   <rect width="400" height="127" fill="#795548">
   </rect>
   <text class="title" x="10" y="10" alignment-baseline="hanging" fill="#FFF">Palette.brown</text>
-  <text class="shade" x="10" y="117" fill="#FFF">Palette.red.shade_500</text>
-  <text class="shade" x="390" y="117" text-anchor="end" fill="#FFF">#F44336</text>
+  <text class="shade" x="10" y="117" fill="#FFF">Palette.brown.shade_500</text>
+  <text class="shade" x="390" y="117" text-anchor="end" fill="#FFF">#795548</text>
 </g>
 
 <g class="color-row" transform="translate(0, 127)">
@@ -1548,8 +1548,8 @@
   <rect width="400" height="127" fill="#9E9E9E">
   </rect>
   <text class="title" x="10" y="10" alignment-baseline="hanging" fill="#FFF">Palette.grey</text>
-  <text class="shade" x="10" y="117" fill="#FFF">Palette.red.shade_500</text>
-  <text class="shade" x="390" y="117" text-anchor="end" fill="#FFF">#F44336</text>
+  <text class="shade" x="10" y="117" fill="#FFF">Palette.grey.shade_500</text>
+  <text class="shade" x="390" y="117" text-anchor="end" fill="#FFF">#9E9E9E</text>
 </g>
 
 <g class="color-row" transform="translate(0, 127)">
@@ -1616,8 +1616,8 @@
   <rect width="400" height="127" fill="#607D8B">
   </rect>
   <text class="title" x="10" y="10" alignment-baseline="hanging" fill="#FFF">Palette.blueGrey</text>
-  <text class="shade" x="10" y="117" fill="#000">Palette.red.shade_500</text>
-  <text class="shade" x="390" y="117" text-anchor="end" fill="#000">#F44336</text>
+  <text class="shade" x="10" y="117" fill="#000">Palette.blueGrey.shade_500</text>
+  <text class="shade" x="390" y="117" text-anchor="end" fill="#000">#607D8B</text>
 </g>
 
 <g class="color-row" transform="translate(0, 127)">

@@ -15,8 +15,8 @@ const titleRowTemplate = hbs.compile(
   <rect width="400" height="127" fill="{{value}}">
   </rect>
   <text class="title" x="10" y="10" alignment-baseline="hanging" fill="#FFF">{{name}}</text>
-  <text class="shade" x="10" y="117" fill="{{textColor}}">Palette.red.shade_500</text>
-  <text class="shade" x="390" y="117"  text-anchor="end" fill="{{textColor}}">#F44336</text>
+  <text class="shade" x="10" y="117" fill="{{textColor}}">{{name}}.shade_500</text>
+  <text class="shade" x="390" y="117"  text-anchor="end" fill="{{textColor}}">{{value}}</text>
 </g>
 `)
 
@@ -35,6 +35,7 @@ function createColorRow(data){
 }
 
 function createTitleRow(data){
+  console.log(data)
 	return titleRowTemplate(data)
 }
 
@@ -56,9 +57,9 @@ module.exports = function($){
 		const $colorTitleContainer = $group.find('.main-color .name')
 		const isDarkColor = !($colorTitleContainer.hasClass('light-strong'))
 		let colorName = camelize($colorTitleContainer.text())
-
 		const $colors = $group.find('.color').not('.main-color')
 
+    // To place the containers side by side
 		colorSetX = (groupIndex % 2 === 0) ? 0 : (ROW_WIDTH + 20)
 		const $colorSet = $(`<g class="color-set ${colorName}" transform="translate(${colorSetX}, ${colorSetY})"/>`)
 		let colorRowY = 0
